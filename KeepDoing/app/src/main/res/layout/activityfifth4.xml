@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="312dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="This advanced intensity fat burning workout is designed for trainees with fine cardiopulmonary function.By using mostlty whole body movements,this workout will help you significantly burn fat and improve your cardiopulmonary functions at the sametime."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Exercise List"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+    <ListView
+        android:id="@+id/mylist1"
+        android:layout_width="321dp"
+        android:layout_height="260dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView79" />
+</android.support.constraint.ConstraintLayout>

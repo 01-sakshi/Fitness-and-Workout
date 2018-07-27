@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ex19"
+        android:layout_width="312dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/activityg16" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="313dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex19">
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="295dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Form :\n 1. Stand with your back straight and tight,hands held together at the chest,and feet slightly wider than shoulder width apart.Do a squat.\n 2. As you come up,jump up .Once you land,quickly jump back into the starting position.This makesfor one rep.\n\n Breathing :\n Breath in when squatting,breathe out when jumping."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2" />
+</android.support.constraint.ConstraintLayout>

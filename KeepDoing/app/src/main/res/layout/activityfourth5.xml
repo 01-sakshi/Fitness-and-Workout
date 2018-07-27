@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ex26"
+        android:layout_width="312dp"
+        android:layout_height="209dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/activityg19" />
+
+    <ScrollView
+        android:layout_width="317dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex26">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Form :\n 1. Set your feet about twice of shoulder-width apart with toes pointing diagonal forward.\n 2. Dropping your hips into a squat,redistribute your weight,onto one leg until the other leg straightens.Pause,then slowly shift your weight to the centre,and onto the other leg.\n 3. Keep your feet on the ground and hands held at chest.\n\n Breathing :\n Breathe in when coming down,breathe out when coming up."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

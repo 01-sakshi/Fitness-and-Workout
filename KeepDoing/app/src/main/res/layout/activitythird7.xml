@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ex22"
+        android:layout_width="312dp"
+        android:layout_height="209dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/activityg14" />
+
+    <ScrollView
+        android:layout_width="298dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex22">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Form :\n 1. Lie on your back with shoulders slightly off the floor,your knees bent,and your feet flat on the floor shoulder-width apart.Extend your arms downward by the side of your body.\n 2. Crunch your abs forward and up to the left side and try to touch your left heel as you hold the contraction.Repeat the same for the right side.\n\n Breathing :\n Breathe out when touching the heel ,breathe in when going back to the starting position."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

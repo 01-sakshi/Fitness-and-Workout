@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="185dp"
+        android:layout_height="221dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p2" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="322dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="28dp"
+        android:text="Tips :\n 1. While standing,extend your left arm over your head.\n 2. Turn your head and lean at your hips to the right,pulling on the left arm to stretch your left side.\n\n Breathing :\n Avoid holding your breath during the stretch."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="272dp" />
+</android.support.constraint.ConstraintLayout>

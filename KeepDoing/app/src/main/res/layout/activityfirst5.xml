@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ex21"
+        android:layout_width="312dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/activityg15" />
+
+    <ScrollView
+        android:layout_width="317dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex21">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Form :\n 1. Sit on the floor with your torso slightly leaning back,knees bent,and feel elevated.Round your upper back a bit,but your lower back straight.\n 2. Twist your torso to the left and bring your arms to the left as well.\n 3. Touch the floor.Repeat the same for the right side.\n\n Breathing :\n Breathe out when rotating to the side,reathe in when coming back to centre."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

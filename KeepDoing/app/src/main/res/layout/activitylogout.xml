@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/mylogout"
+        android:layout_width="216dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView91"
+        app:srcCompat="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="288dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:text="You can login back with your Mail Account"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView92" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="68dp"
+        android:text="You are Logged in with your Mail Account"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
